@@ -663,6 +663,9 @@
         height: 400px;
         margin-top: 35px;
     }
+    .slider-team .slick-slide:not(.slick-active) .item-team {
+        opacity: 1;
+    }
 }
 
 /* Small Devices, Tablets */
