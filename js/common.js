@@ -44,6 +44,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	  lastScrollTop = st; 
   }
 
+  $(".item-question__head").click(function() {
+	$(".item-question").removeClass("active");
+	$(".item-question__content").slideUp(200);
+	if ($(this).siblings(".item-question__content").is(":hidden")) {
+	  $(this).siblings(".item-question__content").slideDown(200);
+	  $(this).parent().addClass("active");
+	} else {
+	  $(this).siblings(".item-question__content").slideUp(200);
+	  $(this).parent().removeClass("active");
+	}
+  });
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -109,8 +121,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		centerMode: true,
 		focusOnSelect: true,
 		variableWidth: true,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
 	});
 
 	$('.slider-reviews').slick({
@@ -123,9 +135,71 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		centerMode: true,
 		focusOnSelect: true,
 		variableWidth: true,
-		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
-		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
 	});
+
+	$('.slider-partners').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 5,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+					arrows: false,
+					dots: true,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 2,
+					arrows: false,
+					dots: true,
+					
+				}
+			}
+			]
+		});
+
+		$('.slider-for').slick({
+			arrows: false,
+			dots: false,
+			infinite: false,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			asNavFor: '.slider-nav',
+			touchThreshold: 1000,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+		});
+	
+		$('.slider-nav').slick({
+			arrows: false,
+			dots: false,
+			infinite: false,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			asNavFor: '.slider-for',
+			touchThreshold: 1000,
+			focusOnSelect: true,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+		});
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 

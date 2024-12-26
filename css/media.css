@@ -270,8 +270,253 @@
     }
     .contact-block > .row {
         margin-bottom: -34px;
-    }    
+    }
+    .billbord-page {
+        padding: 12px;
+        margin-top: 18px;
+        margin-bottom: 26px;
+        padding-left: 40px;
+    }
+    .billbord-page .title-section {
+        font-size: 37px;
+    }
+    .billbord-page__image {
+        height: 360px;
+        margin-left: -40px;
+    }
+    .billbord-page .btn-main {
+        margin-top: 43px;
+    }
+    .billbord-page__content {
+        margin-right: 75px;
+    }
+    .service-info {
+        padding: 26px;
+        margin-bottom: 26px;
+    }
+    .service-info__details {
+        padding: 26px;
+        margin-right: -25px;
+    }
+    .service-info .title-middle {
+        margin-bottom: 18px;
+        font-size: 19px;
+    }
+    ul.list-page li {
+        padding-left: 32px;
+        margin-bottom: 9px;
+    }
+    .service-info_main {
+        margin-top: 75px;
+    }
+    .service-info_main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .single-service .row.row_advantages {
+        margin-top: 65px;
+    }
+    .item-team_main .item-team__image {
+        height: 310px;
+    }
+    .service-doctors .form-page {
+        padding: 33px;
+    }
+    .service-doctors .form-page .checkbox {
+        margin-top: 25px;
+    }
+    .table-main {
+        padding: 19px 25px;
+    }
+    .table-main table td {
+        padding: 15px 18px;
+    }
+    .table-main th {
+        padding: 14px 18px;
+        font-size: 21px;
+    }
+    .price-value {
+        font-size: 18px;
+    }
+    .table-main td:last-child {
+        width: 196px;
+    }
+    ul.list-page li::before {
+        width: 22px;
+        height: 22px;
+    }
+    .page-about .billbord-page .title-middle {
+        max-width: 490px;
+    }
+    .billbord-page .title-middle {
+        margin-top: 20px;
+    }
+    .page-about .billbord-page .btn-main {
+        margin-top: 40px;
+    }
+    .item-about {
+        padding: 22px;
+        gap: 20px;
+    }
+    .item-about__image {
+        width: 170px;
+        height: 115px;
+    }
+    .subtitle-about {
+        margin-top: 53px;
+        font-size: 29px;
+        max-width: 1030px;
+    }
+    .slider-partners .slick-slide {
+        padding: 0 10px;
+    }
+    .slider-partners .slick-list {
+        margin: 0 -10px;
+    }
+    .item-partner {
+        height: 120px;
+    }
+    .slick-arrow {
+        width: 45px;
+        height: 45px;
+    }
+    .chief__content::after, .chief__content::before {
+        width: 105px;
+        height: 75px;
+    }
+    .chief__head {
+        padding: 15px 0;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: 155px;
+    }
+    .chief__title {
+        font-size: 28px;
+    }
+    .btn-video img {
+        max-width: 40px;
+    }
+    .btn-video {
+        padding: 10px;
+        gap: 15px;
+        font-size: 17px;
+        padding-right: 20px;
+    }
+    .info-box {
+        padding: 26px;
+    }
+    .info-box p {
+        margin-bottom: 26px;
+    }
+    .info-box__image {
+        height: 260px;
+    }
+    .breadcrumbs {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .page-team .title-section {
+        margin-bottom: 35px;
+    }
+    .page-team {
+        padding-bottom: 80px;
+        background-position: center top 60px;
+        background-size: 1900px auto;
+    }
+    .page-team .title-section {
+        margin-top: 15px;
+    }
+    .card-main {
+        padding: 26px;
+    }
+    .slider-for__item {
+        height: 400px;
+    }
+    .slider-nav .slick-slide {
+        padding: 0 5px;
+    }
+    .slider-nav .slick-list {
+        margin: 0 -5px;
+    }
+    .slider-nav {
+        margin-top: 12px;
+    }
+    .slider-nav__item {
+        height: 115px;
+    }
+    .card-main__title {
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+    .treatment-areas .list-page {
+        font-size: 16px;
+    }
+    .treatment-areas__content {
+        margin-right: 0;
+    }
+    .treatment-areas .list-page li {
+        padding-right: 0;
+    }
+    .treatment-areas__image {
+        width: 385px;
+    }
+    .treatment-areas {
+        padding: 26px;
+    }
+    .quote-team::after, 
+    .quote-team::before {
+        width: 105px;
+        height: 75px;
+    }
+    .quote-team {
+        padding: 35px 190px;
+        font-size: 21px;
+        margin-bottom: 60px;
+    }
+    .quote-team::before {
+        left: 35px;
+    }
+    .quote-team::after {
+        right: 35px;
+    }
+    .text-team {
+        margin-bottom: 60px;
+    }
+    .form-main {
+        padding: 50px 135px;
+    }
+    .form-main .item-form input {
+        height: 60px;
+    }
+    .item-question__head {
+        padding: 16px;
+        padding-left: 26px;
+        gap: 25px;
+        font-size: 17px;
+    }
+    .item-question__head i {
+        width: 50px;
+        height: 50px;
+    }
+    .item-question__content {
+        padding: 23px 25px;
+        padding-right: 77px;
+        padding-top: 0;
+    }
+    .item-question {
+        margin-bottom: 18px;
+    }
+    .form-main.form-main_question {
+        margin-top: 60px;
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+    .page-questions {
+        background-size: 1700px auto;
+        background-position: center top 50px;
+    }
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .header__contacts {
@@ -386,6 +631,99 @@
     }
     .item-contact__link {
         font-size: 14px;
+    }
+    .billbord-page .title-section {
+        font-size: 31px;
+    }
+    .billbord-page {
+        padding-left: 25px;
+    }
+    .billbord-page__image {
+        height: 305px;
+    }
+    .service-info .title-middle {
+        margin-bottom: 15px;
+        font-size: 17px;
+    }
+    .service-info__details {
+        padding: 20px;
+    }
+    .service-doctors .form-page {
+        padding: 20px;
+    }
+    .service-doctors .title-form {
+        margin-bottom: 23px;
+    }
+    .service-doctors .form-page .checkbox {
+        margin-top: 18px;
+    }
+    .form-page .btn-main {
+        margin-top: 8px;
+    }
+    .item-team_main .item-team__image {
+        height: 278px;
+    }
+    .price-value {
+        font-size: 16px;
+    }
+    .table-main td:last-child {
+        width: auto;
+    }
+    .table-main th {
+        padding: 12px 13px;
+        font-size: 18px;
+    }
+    .table-main table td {
+        padding: 13px 13px;
+    }
+    .prices {
+        padding-bottom: 70px;
+    }
+    .slick-prev {
+        left: -50px;
+    }
+    .slick-next {
+        right: -50px;
+    }
+    .chief__content {
+        margin-left: 15px;
+        padding-right: 0;
+    }
+    .chief__title {
+        font-size: 25px;
+    }
+    .chief__head {
+        padding: 15px 0;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: 130px;
+    }
+    .chief__content .btn-video {
+        margin-top: 15px;
+    }
+    .quote-team {
+        padding: 35px 160px;
+        font-size: 17px;
+        margin-bottom: 45px;
+    }
+    .form-main {
+        padding: 30px 50px;
+    }
+    .form-main__phone {
+        margin-bottom: 45px;
+    }
+    .form-main .item-form input {
+        height: 55px;
+    }
+    .single-team {
+        background-size: 1600px auto;
+    }
+    .page-questions .title-section {
+        margin-bottom: 33px;
+    }
+    .form-main.form-main_question {
+        padding-left: 150px;
+        padding-right: 150px;
     }
 }
 
@@ -665,6 +1003,265 @@
     }
     .slider-team .slick-slide:not(.slick-active) .item-team {
         opacity: 1;
+    }
+    .billbord-page {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .billbord-page__content {
+        margin-right: 0;
+    }
+    .billbord-page .title-section br {
+        display: none;
+    }
+    .billbord-page .title-section {
+        font-size: 24px;
+    }
+    .billbord-page .btn-main {
+        margin-top: 25px;
+    }
+    .billbord-page__image {
+        height: 250px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .billbord-page .col-lg-5 {
+        order: -1;
+    }
+    .billbord-page__image img,
+    .billbord-page__image {
+        border-radius: 24px;
+    }
+    .service-info {
+        padding: 20px;
+    }
+    .service-info__details {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .service-info__content {
+        margin: 0;
+    }
+    .service-info_main {
+        margin-top: 0;
+    }
+    .service-info__image {
+        margin-top: 15px;
+    }
+    .service-doctors,
+    .single-service {
+        padding-bottom: 56px;
+    }
+    .service-doctors .col-lg-8 .row > div {
+        margin-bottom: 20px;
+    }
+    .service-doctors .col-lg-8 .row {
+        margin-bottom: -20px;
+    }
+    .item-team_main .item-team__image {
+        height: 310px;
+    }
+    .service-doctors .form-page {
+        margin-top: 25px;
+    }
+    .table-main {
+        padding: 18px;
+        font-size: 13px;
+    }
+    .table-main th {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    .price-value {
+        font-size: 14px;
+    }
+    .table-main table td {
+        padding: 10px 7px;
+    }
+    .fancybox-slide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .page-about .billbord-page .btn-main {
+        margin-top: 28px;
+    }
+    .billbord-page .title-middle {
+        margin-top: 13px;
+    }
+    .item-about {
+        display: block;
+    }
+    .item-about__image {
+        width: 192px;
+        height: 128px;
+        margin-bottom: 15px;
+    }
+    .subtitle-about {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .page-about {
+        padding-bottom: 50px;
+        background-position: center bottom 100px;
+        background-size: 600px auto;
+    }
+    .slider-partners {
+        padding-bottom: 33px;
+    }
+    .partners {
+        padding-bottom: 50px;
+    }
+    .chief__head {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .chief__content {
+        margin: 0;
+    }
+    .chief__image {
+        margin: 0;
+    }
+    .chief__block {
+        padding: 20px;
+    }
+    .chief__title {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+    .chief__content::after, .chief__content::before {
+        width: 65px;
+        height: 45px;
+    }
+    .chief__content::before {
+        top: 15px;
+    }
+    .our-mission, .chief {
+        padding-bottom: 50px;
+    }
+    .info-box__image {
+        height: 160px;
+    }
+    .info-box {
+        padding: 20px;
+    }
+    .breadcrumbs {
+        padding: 20px 0;
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .page-team .title-section {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .page-team {
+        padding-bottom: 55px;
+    }
+    .card-main {
+        padding: 20px;
+    }
+    .slider-for__item {
+        height: 285px;
+    }
+    .slider-nav__item {
+        height: 73px;
+    }
+    .slider-nav__item,
+    .slider-nav__item img {
+        border-radius: 10px;
+    }
+    .card-main__title {
+        font-size: 24px;
+        margin-bottom: 19px;
+        margin-top: 20px;
+    }
+    .card-main .btn-main {
+        width: 100%;
+    }
+    .card-main .card-main__content {
+        display: block;
+        padding-bottom: 0;
+    }
+    .treatment-areas .list-page {
+        font-size: 14px;
+        display: block;
+    }
+    .treatment-areas .list-page li {
+        margin-bottom: 17px;
+    }
+    .treatment-areas .title-middle {
+        margin-bottom: 20px;
+    }
+    .quote-team {
+        padding: 20px;
+    }
+    .quote-team::after, .quote-team::before {
+        width: 65px;
+        height: 44px;
+        margin: 0;
+    }
+    .quote-team::before {
+        top: 20px;
+        left: 20px;
+        bottom: auto;
+    }
+    .quote-team::after {
+        bottom: 20px;
+        right: 20px;
+        top: auto;
+    }
+    .text-team {
+        margin-bottom: 37px;
+    }
+    .prices-team {
+        padding-bottom: 60px;
+    }
+    .form-main {
+        padding: 20px;
+    }
+    .form-main__title {
+        font-size: 22px;
+        margin-bottom: 22px;
+    }
+    .form-main__phone {
+        margin-bottom: 30px;
+    }
+    .form-main__phone a {
+        padding: 13px 24px;
+        font-size: 18px;
+    }
+    .form-main .title-middle {
+        margin-bottom: 17px;
+    }
+    .form-main .item-form {
+        margin-bottom: 15px;
+    }
+    .single-team {
+        padding-bottom: 60px;
+        background-size: 1200px auto;
+    }
+    .page-questions .title-section {
+        margin-bottom: 25px;
+    }
+    .page-questions {
+        padding-bottom: 55px;
+        background-size: 1000px auto;
+    }
+    .item-question__head {
+        padding: 15px;
+        padding-left: 20px;
+        gap: 17px;
+        font-size: 16px;
+    }
+    .item-question__content {
+        padding: 23px 20px;
+        padding-top: 0;
+    }
+    .form-main.form-main_question {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
     }
 }
 
