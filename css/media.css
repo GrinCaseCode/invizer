@@ -1089,11 +1089,12 @@
         margin-top: 13px;
     }
     .item-about {
+        padding: 5px;
         display: block;
     }
     .item-about__image {
-        width: 192px;
-        height: 128px;
+        width: 100%;
+        height: 200px;
         margin-bottom: 15px;
     }
     .subtitle-about {
@@ -1263,16 +1264,31 @@
         padding-right: 20px;
         margin-top: 40px;
     }
+    .single-service .row.row_advantages {
+        margin-top: 45px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .item-about__image {
+        height: 152px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .item-about__image {
+        height: 86px;
+    }
+    .item-about__image,
+    .item-about__image img {
+        border-radius: 8px;
+    }
+    .item-about {
+        font-size: 10px;
+        line-height: 140%;
+    }
 }
 
 /* Custom, iPhone Retina */
