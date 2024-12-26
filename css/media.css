@@ -738,10 +738,10 @@
         justify-content: space-between;
     }
     .logo img {
-        width: 80px;
+        width: 70px;
     }
     .header {
-        padding: 10px 0;
+        padding: 7px 0;
         transform: none !important;
     }
     .sandwich {
@@ -905,7 +905,7 @@
         margin-bottom: 0;
     }
     .wrapper {
-        padding-top: 86px;
+        padding-top: 72px;
     }
     .header__top .btn-main.btn-main_light {
         width: 50px;
