@@ -1279,14 +1279,14 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .item-about__image {
-        height: 86px;
+        height: 105px;
     }
     .item-about__image,
     .item-about__image img {
         border-radius: 8px;
     }
     .item-about {
-        font-size: 10px;
+        font-size: 11px;
         line-height: 140%;
     }
 }
