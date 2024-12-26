@@ -1859,7 +1859,7 @@ ul.list-page li::before {
 }
 .page-questions .title-section {
 	margin-bottom: 50px;
-	text-align: center;
+	text-align: center; 
 }
 .form-main.form-main_question .item-form {
 	margin-bottom: 24px;
