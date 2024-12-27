@@ -1522,6 +1522,9 @@
     .btn-main {
         font-size: 14px;
     }
+    .form-main__title br {
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
