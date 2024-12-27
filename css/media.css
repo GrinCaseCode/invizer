@@ -1519,6 +1519,9 @@
     .page-team .row.row_main {
         margin-bottom: -20px;
     }
+    .btn-main {
+        font-size: 14px;
+    }
 }
 
 /* Small Devices, Tablets */
