@@ -945,7 +945,7 @@
         width: 280px;
     }
     .item-team__image {
-        height: 295px;
+        height: 325px;
         margin-bottom: 15px;
     }
     .slider-team .slick-center .item-team {
@@ -1298,6 +1298,7 @@
     }
     .card-main {
         padding: 20px;
+        margin-bottom: 30px;
     }
     .slider-for__item {
         height: 285px;
@@ -1332,7 +1333,8 @@
         margin-bottom: 20px;
     }
     .quote-team {
-        padding: 20px;
+        padding: 50px 20px;
+        margin-bottom: 30px;
     }
     .quote-team::after, .quote-team::before {
         width: 65px;
@@ -1340,12 +1342,12 @@
         margin: 0;
     }
     .quote-team::before {
-        top: 20px;
+        top: 10px;
         left: 20px;
         bottom: auto;
     }
     .quote-team::after {
-        bottom: 20px;
+        bottom: 10px;
         right: 20px;
         top: auto;
     }
@@ -1420,6 +1422,7 @@
         padding-bottom: 55px;
     }
     .article-content h1 {
+        margin: 25px 0;
         font-size: 23px;
     }
     .article-block {
@@ -1509,6 +1512,12 @@
     }
     .footer__link, .header__link {
         font-size: 10px;
+    }
+    .page-team .row.row_main > div {
+        margin-bottom: 20px;
+    }
+    .page-team .row.row_main {
+        margin-bottom: -20px;
     }
 }
 
