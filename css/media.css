@@ -20,7 +20,7 @@
     }
     .logo img {
         width: 103px; 
-    }
+    } 
     .menu a {
         height: 39px;
     }
@@ -506,7 +506,7 @@
     .item-question {
         margin-bottom: 18px;
     }
-    .form-main.form-main_question {
+    .form-main.form-main_page {
         margin-top: 60px;
         padding-left: 230px;
         padding-right: 230px;
@@ -514,6 +514,94 @@
     .page-questions {
         background-size: 1700px auto;
         background-position: center top 50px;
+    }
+    .page-news .title-section {
+        margin-top: 8px;
+    }
+    .filter-list a {
+        padding: 9px 21px;
+        font-size: 17px;
+    }
+    .filter-list {
+        margin-bottom: 38px;
+    }
+    .item-news {
+        padding: 16px;
+    }
+    .item-news__image {
+        height: 232px;
+        margin-bottom: 20px;
+    }
+    .item-news__title {
+        margin-bottom: 12px;
+        font-size: 17px;
+        min-height: 46px;
+    }
+    .page-numbers {
+        font-size: 17px;
+        margin: 0 22px;
+    }
+    .pager {
+        height: 46px;
+        margin-top: 42px;
+    }
+    .prev.page-numbers, .next.page-numbers {
+        width: 46px;
+        height: 46px;
+        font-size: 16px;
+    }
+    .page-news {
+        padding-bottom: 70px;
+    }
+    .article-content h1 {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .article-block {
+        padding: 18px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+    .article-info {
+        padding: 33px 25px;
+        font-size: 16px;
+    }
+    .page-article .item-news {
+        margin-bottom: 25px;
+    }
+    .article-content h2 {
+        font-size: 18px;
+        margin-bottom: 19px;
+    }
+    .page-prices .title-section {
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .page-prices .table-main th {
+        font-size: 16px;
+    }
+    .title-td {
+        font-size: 18px;
+    }
+    .head-page {
+        gap: 70px;
+        margin-bottom: 40px;
+    }
+    .unit-review {
+        height: 470px;
+    }
+    .content-mockup {
+        height: 600px;
+    }
+    .page-mockup .title-middle {
+        max-width: 319px;
+    }
+    .content-mockup .btn-main {
+        margin-top: 60px;
+    }
+    .page-mockup_error .title-middle {
+        max-width: 450px;
     }
 }
 
@@ -721,9 +809,57 @@
     .page-questions .title-section {
         margin-bottom: 33px;
     }
-    .form-main.form-main_question {
+    .form-main.form-main_page {
         padding-left: 150px;
         padding-right: 150px;
+    }
+    .filter-list a {
+        padding: 8px 19px;
+        font-size: 15px;
+    }
+    .item-news__image {
+        height: 210px;
+    }
+    .article-content h1 {
+        font-size: 30px;
+    }
+    .article-content h2 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .article-content p {
+        margin-bottom: 15px;
+    }
+    .title-td {
+        font-size: 16px;
+    }
+    .page-prices .table-main th {
+        font-size: 14px;
+        white-space: normal;
+    }
+    .page-prices .table-main td:nth-child(2) {
+        max-width: 475px;
+    }
+    .page-prices {
+        padding-bottom: 70px;
+    }
+    .page-reviews {
+        padding-bottom: 70px;
+    }
+    .unit-review {
+        height: 420px;
+    }
+    .page-mockup .title-middle {
+        max-width: 269px;
+    }
+    .content-mockup .btn-main {
+        margin-top: 36px;
+    }
+    .content-mockup {
+        height: 500px;
+    }
+    .page-mockup_error .title-middle {
+        max-width: 390px;
     }
 }
 
@@ -877,7 +1013,7 @@
     }
     .footer .logo {
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .footer .logo img {
         width: 110px;
@@ -915,6 +1051,7 @@
         gap: 0;
         font-size: 0;
         display: flex;
+        flex: none;
     }
     .header.fixed {
         box-shadow: 0 0 10px #c9bfb1 !important;
@@ -1259,13 +1396,119 @@
         padding: 23px 20px;
         padding-top: 0;
     }
-    .form-main.form-main_question {
+    .form-main.form-main_page {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 40px;
     }
     .single-service .row.row_advantages {
         margin-top: 45px;
+    }
+    .filter-list {
+        margin-bottom: 30px;
+        gap: 6px;
+    }
+    .filter-list a {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+    .page-numbers {
+        font-size: 15px;
+        margin: 0 18px;
+    }
+    .page-news {
+        padding-bottom: 55px;
+    }
+    .article-content h1 {
+        font-size: 23px;
+    }
+    .article-block {
+        padding: 20px;
+    }
+    .article-content h2 {
+        font-size: 17px;
+    }
+    .article-content ul li::before {
+        width: 22px;
+        height: 22px;
+    }
+    .article-content ul li {
+        padding-left: 32px;
+    }
+    .page-article .col-lg-4 {
+        padding-top: 20px;
+    }
+    .page-article {
+        padding-bottom: 55px;
+    }
+    .page-article .item-news:last-child {
+        margin-bottom: 0;
+    }
+    .article-info {
+        padding: 20px;
+    }
+    .breadcrumbs li::after {
+        margin: 0 6px;
+    }
+    .page-prices .table-main {
+        margin-right: -15px;
+        border-radius: 16px 0 0 16px;
+        overflow: auto;
+    }
+    .page-prices .table-main table {
+        width: 800px;
+    }
+    .page-prices .table-main th {
+        white-space: nowrap;
+    }
+    .title-td {
+        font-size: 14px;
+    }
+    .page-prices .table-main::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    .page-prices .table-main::-webkit-scrollbar:vertical {
+        width: 3px;
+    }
+    .page-prices .table-main::-webkit-scrollbar:horizontal {
+        height: 3px;
+    }
+    .page-prices .table-main::-webkit-scrollbar-thumb {
+        background-color: #ee761c;
+        border-radius: 10px;
+    }
+    .page-prices .table-main::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #ccc;
+    }
+    .unit-review {
+        padding: 15px;
+        height: auto;
+    }
+    .head-page {
+        margin-bottom: 30px;
+        display: block;
+    }
+    .head-page .title-section {
+        margin-bottom: 15px;
+    }
+    .page-reviews {
+        padding-bottom: 60px;
+    }
+    .page-mockup {
+        background-position: 30% 50%;
+    }
+    .page-mockup .title-middle {
+        max-width: 237px;
+    }
+    .page-mockup_error .title-middle {
+        max-width: 316px;
+    }
+    .page-mockup_error {
+        background-position: 72% 50%;
+    }
+    .footer__link, .header__link {
+        font-size: 10px;
     }
 }
 
