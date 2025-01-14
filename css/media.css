@@ -1597,7 +1597,6 @@
         display: none;
     }
     .billbord-loyalty {
-        margin: 0 -15px;
         margin-bottom: 25px;
         padding: 0 20px;
         border-radius: 26px;
@@ -1606,7 +1605,7 @@
         background-position: 62% 50%;
     }
     .billbord-loyalty .title-section {
-        font-size: 33px;
+        font-size: 30px;
     }
     .item-program {
         padding: 25px 20px;
@@ -1627,6 +1626,9 @@
     }
     .questions {
         padding-bottom: 50px;
+    }
+    .item-program__descr {
+        max-width: 350px;
     }
 }
 
